@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+} 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/*main style*/
+
+body {
+	font-family: "Raleway", sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+	line-height: 25px;
+
+}
+
+.header_main {
+	border-bottom: 1px solid #00000030;
+}
+
+
+
+.container {
+	margin: 0 auto;   
+	padding: 80px 0 50px 0;
+    max-width: 1160px;
+}
+
+.container1 {
+	margin: 0 auto;   
+/*	padding: 100px 20px;*/
+    max-width: 1160px;
+}
+
+.header_main_block {
+	display: flex;
+    justify-content: space-between;
+    gap: 20px;
+	align-items: center;
+    padding: 20px 20px 10px 20px;
+}
+
+.header_main_block_menu {
+	display: flex;
+    justify-content: space-between;
+}
+
+.header_main_block_menu_item {
+	align-items: center;
+	padding: 20px;
+}
+
+ 
+.header_main_block_menu_item a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.link {
+	border-bottom: 3px #fff solid;  
+	justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+
+.link:hover {
+	border-bottom: 3px #ffd644 solid ;
+ 
+}
+
+.main-social {
+	visibility: hidden;
+/*	opacity: 0;*/
+}
+
+.header_main_block_social_img_link {
+	text-decoration: none;
+}
+
+.header_main_block_social_img_link img{
+	
+	border-radius: 100%;
+    background-color: #f8f1db;
+    padding: 12px 10px;
+    opacity: 1; 
+    margin-right: 10px;
+    transition: transform .2s;
+}
+
+.header_main_block_social_img_link img:hover {
+	 transform: scale(1.1); 
+	 background-color: #E2D8BF;
+}
+
+
+
+
+.port_main{
+	display: flex;
+	flex-direction: row;
+	max-width: 1160px;
+	padding: 0 30px;
+	justify-content: space-between;
+/*	margin-bottom: 50px;*/
+/*	padding-top: 63px;*/
+}
+
+
+.port_main_title {
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 53px;
+	color: #000;
+}
+
+.port_main_txt {
+	font-weight: 400;
+	width: 573px;
+	font-size: 20px;
+	line-height: 30px;
+	padding-right: 80px;
+}
+
+.port_cards_section {
+	background-color: #F8F1DB;
+
+}
+
+.port_cards_section_block {
+	display: flex;
+/*		height: 460px;*/
+	
+}
+
+
+.cards_block_article {
+	width: 380px;
+ 	margin: 10px;
+	border-radius: 20px;
+}
+
+.cards_block_pic {
+	text-align: center;
+	align-items: center;
+/*	padding-top: 60px;*/
+ 	height: 300px;
+}
+
+.play {
+	margin-top: -90px;
+	margin-left: -20px;
+}
+
+.play_link {
+ 	padding-left: 50px;
+}
+
+ 			
+.cards_block_txt {
+	height: 100px;
+	width: 300px;
+	padding-top: 20px;
+/*	padding-left: 20px;*/
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 130%;
+}
+
+
+.footer {
+	padding: 120px 0;
+}
+
+.footer_block {
+	display: flex;
+	padding: 0 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.footer_block_item {
+
+}
+
+.title {
+	font-weight: 600;
+	font-size: 44px;
+	line-height: 53px;
+	letter-spacing: -0.02em;
+}
+
+
+.footer_block_item_links {
+	padding-left: 50px;
+}
+
+.f_link {
+	text-decoration: none;
+	text-align: center;
+}
+
+.f_link img{
+	
+	border-radius: 100%;
+    background-color: #f8f1db;
+    padding: 12px 10px;
+    opacity: 1; 
+    margin-right: 10px;
+    transition: transform .2s;
+}
+
+.f_link img:hover {
+	 transform: scale(1.1); 
+	 background-color: #E2D8BF;
+}
+
+
+.meta {
+	text-align: center;
+	padding-top: 30px;
+	opacity: 0.5;
+}
+
+.footer_block_item_mail {
+	font-weight: 500;
+	font-size: 26px;
+	line-height: 130%;
+}
+
+.mail {
+	font-weight: 600;
+	text-decoration: none;
+	color: #000;
+}
+
+.mail:hover {
+	color: #318CE7;
+	cursor: pointer;
+}
